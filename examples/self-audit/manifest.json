@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "bundle_id": "timeless-self-audit-2026-07-14",
+  "purpose": "Publish the scored evidence used to retire the original Timeless general wrapper.",
+  "design": {
+    "cases": [
+      "incident",
+      "research",
+      "polish",
+      "quick"
+    ],
+    "trials_per_case": 3,
+    "conditions": {
+      "baseline": "native baseline",
+      "treatment": "Timeless general wrapper"
+    },
+    "opaque_output_ids": true,
+    "grader_result_sets": 3,
+    "score_range": {
+      "minimum": 0,
+      "maximum": 4
+    },
+    "dimensions": [
+      "outcome_correctness",
+      "material_completeness",
+      "evidence_discipline",
+      "actionability",
+      "proportionality",
+      "communication"
+    ],
+    "flags": [
+      "fatal_omission",
+      "unnecessary_process"
+    ]
+  },
+  "expected_counts": {
+    "case_files": 4,
+    "paired_trials": 12,
+    "opaque_outputs": 24,
+    "grader_manifests": 3,
+    "score_rows": 72,
+    "pair_preferences": 36,
+    "grader_note_files": 3
+  },
+  "recomputed_aggregate": {
+    "preference_counts": {
+      "baseline_wins": 19,
+      "treatment_wins": 6,
+      "ties": 11
+    },
+    "mean_dimension_score": {
+      "baseline": 3.990740740740741,
+      "treatment": 3.888888888888889
+    },
+    "fatal_omission_flags": {
+      "baseline": 0,
+      "treatment": 0
+    },
+    "unnecessary_process_flags": {
+      "baseline": 0,
+      "treatment": 9
+    }
+  },
+  "interpretation": {
+    "decision": "retire tested general wrapper",
+    "status": "post-evaluation product decision",
+    "current_governor_effectiveness": "unresolved",
+    "precommitted_lifecycle_rule_in_recovered_artifacts": false
+  },
+  "evidence_boundary": {
+    "supports": [
+      "Recomputing the preference counts, mean rubric scores, and unnecessary-process flags",
+      "Inspecting every published case, anonymous output, score, preference reason, and grader note"
+    ],
+    "does_not_support": [
+      "Independent proof of model identity, prompt delivery, grader independence, execution time, token cost, or pre-registration",
+      "A claim that the narrower Timeless Governor outperforms a strong native baseline",
+      "Generalization beyond the four tasks and tested wrapper represented by these artifacts"
+    ]
+  },
+  "publication_transformations": [
+    "Excluded the source meta directory because it contained local paths and is not required for aggregation.",
+    "Published private-mapping.md as mapping.md after grading was complete.",
+    "Changed absolute temporary paths in the three grader manifests to bundle-relative paths. Pair orders were not changed.",
+    "Generated README.md, manifest.json, and SHA256SUMS for the public bundle."
+  ]
+}

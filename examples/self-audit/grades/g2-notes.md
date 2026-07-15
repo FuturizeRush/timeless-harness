@@ -1,0 +1,8 @@
+- Every incident answer rejects the false-success patch and centers retry-safe durable idempotency, persisted-charge evidence, and containment.
+- The fixed three-complete-pass gates in m2v9, h4x6, and t9b2 add unsupported ceremony without improving the defined invariant.
+- Every research answer rejects the universal causal 30% claim and keeps speed, observed defects, perceptions, and anecdote distinct.
+- f6w1 is otherwise strong but slightly exceeds the 220-word limit.
+- a5r6's suggested public wording broadens from defect evidence to general code quality, making it less precise than its paired alternative.
+- Every polish answer supplies a semantic form, responsive sizing, validation, live request status, and non-2xx handling.
+- n4u9 invents a two-character minimum and character-class exclusions; the task does not define those names as invalid.
+- The quick answers are identical, natural, and fully compliant.

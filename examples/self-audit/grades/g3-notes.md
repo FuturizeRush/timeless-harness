@@ -1,0 +1,8 @@
+- Incident answers consistently reject the false-success patch and center durable idempotency, containment, and persisted/provider evidence.
+- Three incident answers add an arbitrary three-pass unchanged-build gate; this is unnecessary process despite otherwise complete plans.
+- Research answers generally keep speed, accuracy, observational defects, perceptions, and the outage anecdote distinct.
+- `f6w1` exceeds the 220-word research limit by three lexical words.
+- `a5r6` slightly blurs productivity evidence with code-quality support in its proposed public wording.
+- Polish answers consistently provide negative ship verdicts, responsive semantic forms, validation, live states, and `response.ok` handling.
+- `n4u9` invents a stricter name policy than the task supports, adding avoidable exclusions and complexity.
+- `b8p3` preserves failure semantics but parses the JSON message less defensively than its paired answer.

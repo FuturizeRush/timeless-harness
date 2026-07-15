@@ -1,0 +1,8 @@
+- Incident answers consistently identified retry overlap plus missing idempotency as the causal path and rejected the false-success patch.
+- Three incident answers added an arbitrary three-pass unchanged-build gate; this was the main recurring proportionality failure.
+- Research answers generally kept productivity, accuracy, perceptions, observational defects, and anecdote appropriately distinct.
+- One research memo exceeded the 220-word limit slightly despite otherwise complete analysis.
+- One proposed research-facing public statement blurred supported productivity evidence with broader code-quality language.
+- Polish repairs were broadly strong on semantic controls, responsive sizing, validation, live status, and non-2xx handling.
+- One polish artifact imposed unsupported display-name character rules; the rubric leaves the exact valid-name policy somewhat ambiguous.
+- All quick outputs were identical, natural, and fully compliant.

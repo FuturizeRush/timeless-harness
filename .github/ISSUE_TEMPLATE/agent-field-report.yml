@@ -1,0 +1,65 @@
+name: Workflow evidence report
+description: Report evidence for keeping, narrowing, revising, or retiring a reusable Agent workflow
+title: "[Agent field report] "
+labels:
+  - field-report
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use only non-sensitive material. No improvement and workflow harm are useful results. We care about evidence and cost, not praise.
+  - type: input
+    id: runtime
+    attributes:
+      label: Agent and runtime
+      description: Exact host, model, reasoning effort, and version if known.
+      placeholder: Codex CLI 0.x with model and reasoning effort
+    validations:
+      required: true
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Reusable mechanism and claim
+      description: What workflow, Skill, rule, evaluator, or memory was tested, and what outcome did it claim to improve?
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison design
+      description: Describe the native baseline, treatment boundary, cases, repetitions, rubric, and blinding. If they were not matched, say so.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Observed result
+      description: What material outcome changed, tied, regressed, or remained unknown?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence from the run
+      description: Include relevant outputs, artifacts, verdicts, or measurements. State what was not verified and redact sensitive information.
+    validations:
+      required: true
+  - type: textarea
+    id: cost
+    attributes:
+      label: Cost and harm
+      description: Report latency, tokens, extra files, extra steps, unsupported claims, or new errors. Unknown is acceptable.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Lifecycle decision
+      description: Keep, narrow, revise, retire, or unresolved. State whether this is a provisional screen or a repeated result.
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Smallest next move
+      description: What is the smallest evidence-supported change or next controlled test? Leave blank if none is warranted.

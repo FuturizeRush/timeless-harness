@@ -1,0 +1,6 @@
+interface:
+  display_name: "Timeless Harness"
+  short_description: "Keep, narrow, revise, or retire Agent workflows"
+  default_prompt: "Use $timeless-harness to review this reusable Agent workflow against observed outcomes and cost."
+policy:
+  allow_implicit_invocation: false
